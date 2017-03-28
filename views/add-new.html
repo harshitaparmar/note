@@ -1,0 +1,22 @@
+<div class="note-div">
+	<h2 style="text-align:center;margin-top:4%">Add New Note</h2>
+	
+	<div class="row">
+		<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
+        		<form ng-submit="getdata.createNewNote()">
+        			<div class="row">
+        			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        				<label>Title: </label> <input type="text" ng-model="getdata.title" required="" autofocus>
+        			</div>
+        			</div>
+        			<div class="row">
+        			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        			<label>Body: </label><textarea rows="4" cols="22" ng-model="getdata.body" required=""></textarea>
+        			</div>
+        			</div>
+        			<input type="submit" value="Click to get Id" class="submit-btn">
+
+        		</form>
+        </div>
+     </div>
+</div>

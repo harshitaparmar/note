@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html ng-app="dataApp">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Notes App</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/agency.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top" class="index">
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-3 col-sm-3 col-md-3"></div>
+        <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12 stick-txt">
+            <h3>Welcome to Sticky Note Board</h3>
+        </div>
+        <div class="col-lg-3 col-sm-3 col-md-3"></div>
+    </div>
+    <section id="services">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div ng-view>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.min.js"></script>
+    <script type="text/javascript" src="angular/app.js"></script>
+    <script type="text/javascript" src="angular/services/ang-service.js"></script>
+    <script type="text/javascript" src="angular/controller/getdataController.js"></script>
+    <script type="text/javascript" src="angular/routes.js"></script>
+    <script src="js/agency.min.js"></script>
+
+</body>
+
+</html>

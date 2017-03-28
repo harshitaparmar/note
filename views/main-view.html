@@ -1,0 +1,24 @@
+<div ng-init="getdata.getAllNotes()" class="note-div">
+	<h2 style="text-align:center;margin-top:4%">Notes</h2>
+	
+	<div class="row">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	<div ng-repeat="note in getdata.notes">
+				<div class="notes no">
+				<!--<button type="button" ng-click="getdata.deleteNote(note.id)">Deelete</button>-->
+				<i class="fa fa-paperclip" aria-hiddne="true"></i>
+				<div ng-click="getdata.deleteNote(note.id)" class="delete-btn"><i class="fa fa-trash-o fa-2x" aria-hidden="true" style="float:right"></i></div>
+				<form>
+					<p class="ntitle"><input type="text" class="ntext" ng-model="note.title" ng-change="getdata.updateNotetitle(note.id,note.title)"></p>
+					<p class="nbody"><textarea rows="4" cols="22" class="tbody" ng-model="note.body" ng-change="getdata.updateNotebody(note.id,note.body)"></textarea></p>
+					</form>
+				</div>
+	</div>
+	</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<a ng-href ="#/addnewnote" class=""><i class="fa fa-plus-circle fa-3x" aria-hidden="true" style="color: #EC407A;text-decoration: none;margin-left:46%"></i></a>
+		</div>
+	</div>
+</div>

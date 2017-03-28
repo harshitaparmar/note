@@ -1,0 +1,135 @@
+
+body {
+  overflow-x: hidden;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #EEEEEE;
+}
+.no
+{
+ 
+
+}
+.notes
+{
+  width:150px;
+  height:170px;
+  margin:10px;
+  float:left;
+  background-color: #EC407A;
+  color:white;
+  margin-bottom:10%;
+   box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
+}
+.ntitle
+{
+  font-size:1em;
+  padding-left:5%;
+  padding-top: 10%;
+}
+.nbody
+{
+  font-size: 0.75em;
+  padding-left: 3%;
+  padding-right:3%;
+  text-align: justify;
+}
+.ntext
+{
+  width:100px;
+  border:0;
+  border-color:white;
+  padding-left: 2px;
+  padding-right:2px;
+  background-color: #EC407A;
+  color: white;
+
+}
+.tbody
+{
+   border-style: none; 
+    border-color: Transparent; 
+    overflow: auto; 
+    padding-left:2%;
+    padding-right:2%;
+    text-align: justify;
+    background-color: #EC407A;
+    color: white;
+    margin-bottom: 0px;
+}
+input:focus { 
+    outline: none !important;
+    border-color: #f1f1f1;
+    box-shadow: 0 0 10px #f1f1f1;
+}
+textarea:focus
+{
+  outline: none !important;
+    border-color: #f1f1f1;
+    box-shadow: 0 0 10px #f1f1f1;
+}
+.text-muted {
+  color: #777777;
+}
+.text-primary {
+  color: #fed136;
+}
+p {
+  font-size: 14px;
+  line-height: 1.75;
+}
+p.large {
+  font-size: 16px;
+}
+.stick-txt
+{
+  border-style:solid;
+  border-radius: 20px;
+  border-width:1px;
+  border-color:#EC407A;
+  background-color: #EC407A;
+  margin-top: 5%;
+}
+.stick-txt h3
+{
+  text-align:center;
+  color:white;
+}
+.note-div
+{
+  background-color:#f1f1f1;
+  margin-left:5%;
+  margin-right:5%;
+  margin-top:10%;
+
+}
+.add-btn
+{
+  background-color: #EC407A;
+  float:left;
+}
+.submit-btn
+{
+  background-color: #EC407A;
+  color:white;
+}
+.edit-btn
+{
+  background-color: #EC407A;
+  color:white;
+  margin-left:10%;
+  width:30%;
+  height:30%;
+  font-size: 1em;
+  text-align: center;
+  margin-bottom:0px;
+  margin-top:0px;
+}
+.notes .delete-btn
+{
+  display: none;
+
+}
+.notes:hover .delete-btn
+{
+  display: block;
+}
