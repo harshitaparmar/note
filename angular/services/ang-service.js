@@ -12,7 +12,7 @@ myApp.factory('dataService',function($http){
 		return $http.post(baseUrl +'/note/update'+id,data);
 	}
 	dataAPIS.deleteANote=function(noteId){
-		return $http.delete(baseUrl +'/note/delete' + noteId);
+		return $http.post(baseUrl +'/note/delete' + noteId);
 	}
 	return dataAPIS;
 
